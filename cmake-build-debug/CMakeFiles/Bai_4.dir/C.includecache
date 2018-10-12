@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/applefamily/CLionProjects/Bai-4/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+stdbool.h
+-
+
