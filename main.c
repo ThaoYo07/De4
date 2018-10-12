@@ -21,7 +21,8 @@ int main() {
     scanf("%d", &a);
     printf("Doo dai canh thu hai la: \n");
     scanf("%d", &b);
-    if (validateData) {
+    bool isValiDateData = validateData(a, b);
+    if (isValiDateData) {
         printf("Do dai canh huyen la: %.2f \n", canhHuyenTamGiac(a, b));
     }
     return 0;
