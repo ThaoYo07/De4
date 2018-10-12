@@ -12,7 +12,7 @@ bool validateData(int a, int b) {
 }
 
 double canhHuyenTamGiac(int a, int b) {
-    return (double) sqrt(a * a + b * b);
+    return (double) sqrt(pow(a,2) + pow(b,2));
 }
 
 int main() {
@@ -27,3 +27,5 @@ int main() {
     }
     return 0;
 }
+// Tinh do dai canh huyen cua tam giac vuong.
+// Canh tam giac vuong khong duoc nho hon 0.
